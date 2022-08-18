@@ -1,0 +1,38 @@
+@media (min-width: 360px){
+    h2{
+        font-weight: bold;
+        font-size: 1.4rem;
+        margin: 0 0 1em;
+    }
+
+    .sobre{
+        padding: 28rem 0 2rem 0;
+    }
+
+    .boxSobre{
+        background-color: var(--azul-claro);
+    }
+
+    .pSobre{
+        margin: 0 0 1em;
+    }
+}
+
+@media (min-width: 1200px){
+    .sobre{
+        margin: 0 auto;
+        padding: 22rem 0 22rem 0;
+    }
+}
+
+@media (min-width: 1224px){
+    .sobre{
+        margin: 0 auto;
+        padding: 22rem 0 9rem 0;
+    }
+
+    .boxSobre{
+        margin: 0 auto;
+    }
+    
+}

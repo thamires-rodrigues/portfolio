@@ -1,0 +1,49 @@
+@media (min-width: 360px){  
+    input{
+        border: none;
+        outline: none;
+        box-shadow: none;
+        border-bottom: 1px solid #ffffff;
+        background-color: #ffffff;
+        width:100%;
+        height:40px;
+        margin-bottom: 2rem;
+    }
+
+    textarea{
+        width:100%;
+        height:100px;
+        margin-bottom: 2rem;
+    }
+
+    .tituloInp{
+        color:#A2A2A2;
+    }
+
+    button{
+        background-color: var(--azul-escuro);
+        color: var(--branco);
+        width: 160px;
+        height: 35px;
+        cursor: pointer;
+    }
+
+    .tel{
+        display: none;
+    }
+
+    .contato{
+        background-color: var(--azul-claro);
+        position: relative;
+        padding: 40px 0 40px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .boxContato{
+        background-color: var(--);
+        width: 100%;
+    }
+}
+

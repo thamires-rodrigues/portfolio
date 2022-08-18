@@ -1,0 +1,115 @@
+@media (min-width: 360px){
+    .cabecalho{
+        background-color: var(--bege);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        position: absolute;
+    }
+    
+    .nome{
+        padding-right: 5rem;
+    }
+    .nome, .email{
+        font-size: 0.8rem;
+        margin: 0.5rem;
+        justify-content: space-between;
+    }
+    
+    .item-menu2{
+        display: inline-block;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .largfoto{
+        width: 100%;
+    }
+    
+    .fototh{
+        padding-top: 1.2rem;
+        width:8rem;
+        border-radius: 50%;
+        float: left;
+        margin: 1rem 0 1rem 0;
+    }
+    
+    .subtitulo{
+        padding: 1rem 0 1rem 0;
+    }
+    
+    .informacoes{
+        margin: 14rem 0 0 0;
+    }
+    .links {
+        width:100%;
+        padding: 1rem 0 1rem 0; 
+    }
+    
+    .links li{
+        display:inline;
+        margin: 1rem 0.5rem 0 0;
+        font-weight: bold;
+        padding-bottom: 1rem;
+    }
+
+    .links li a:hover{
+        cursor: pointer;
+    }
+
+    .boxMobile{
+        display: grid;
+        place-items: inherit;
+    }
+    
+}
+
+@media(min-width:470px){
+    .nome{
+        padding-right: 17rem;
+    }
+}
+
+@media(max-width: 767px){
+    .menu-principal{
+        display: none;
+    }
+}
+
+
+
+@media (min-width: 768px){
+    .fototh{
+        width:220px;
+        border-radius: 50%;
+        float: right;
+        margin: 30px 0 30px 30px;
+    }
+
+    .nome,.email{
+        display: none;
+    }
+
+    .menu-principal li{
+        text-decoration: none;
+        display: inline;
+        margin: 0 0 0 15px;
+    }
+
+}
+
+@media (min-width: 1440px){
+    .sobre{
+        position: relative;
+        width: 940px;
+        margin: 0 auto;
+        padding: 40px 0 40px 0;
+    }
+
+    .pSobre{
+        margin: 0 0 1em;
+    }
+}
+

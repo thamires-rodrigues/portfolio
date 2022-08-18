@@ -1,0 +1,48 @@
+@media (min-width: 360px){ 
+    .box-exp{
+        width: 100%;
+        background-color: var(--bege);
+    }
+
+    .exp-imagem{
+        padding-left: 2.5rem;
+        width:55vw;
+    }
+
+    .titulo-projeto{
+        font-weight: bold;
+        margin: 0 auto;
+    }
+
+    .botao-exp1{
+        background-color:var(--bege);
+        border-width: 1px;
+        border-color:var(--azul-escuro);
+        color:var(--azul-escuro);
+        margin-top: 15px;
+        transition: 0.3s;
+    }
+
+    .botao-exp1:hover{
+        background-color: (--azul-escuro);
+        color: var(--branco);
+        cursor: pointer;
+    }
+
+    .botao-exp2{
+        background-color: (--azul-escuro);
+        border: none;
+        margin-top: 15px;
+        transition: 0.3s;
+    }
+
+    .titulo-projeto, .descr{
+        padding-left: 2.5rem;
+    }
+
+    .botao-exp1, .botao-exp2{
+        margin-left: 2.5rem;
+        width: 8rem;
+    }
+}
+

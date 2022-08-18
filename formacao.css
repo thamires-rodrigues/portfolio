@@ -1,0 +1,47 @@
+@media (min-width: 360px){   
+    .divFor{
+        background-color: var(--azul-claro);
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    .logo-uninter{
+        width: 60%;
+    }
+
+    .formAcad{
+        background-color: var(--azul-claro);
+    }
+
+    .formacoes{
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+
+    .formacao{
+        width: 55%;
+        font-weight: bold;
+        text-align: center;
+        background-color: var(--branco);
+        margin: 1rem 1rem;
+        
+    }
+
+
+    .sjImg{
+        padding: 2.5rem;
+        width: 9rem;
+    }
+
+    .formacao{
+        
+    }
+}
+
+@media(min-width:767px){
+    .divFor{
+        display: flex;
+    }
+}

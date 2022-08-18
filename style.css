@@ -1,0 +1,42 @@
+:root{
+    --branco:#fff;
+    --bege:#f5f5f5;
+    --azul-claro: #eaf2fd;
+    --azul-escuro: #2A7AE4;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    width: 100%;
+}
+
+footer{
+    bottom: 0;
+    text-align: center;
+    background: var(--bege);
+    padding: 40px 0;
+}
+
+@media (min-width: 360px){
+    
+    h1{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    
+    h2{
+        padding-top: 1.2rem;
+    }
+    
+    p{
+        font-size: 1rem;
+    }
+    
+    .centralizado, .skillCentro{
+        text-align: center;
+    }
+}
+
+
+
